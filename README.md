@@ -9,5 +9,5 @@ Nuestra página esta dirigida a facilitar la compra y ventas de autos de juguete
 
 - Aquí verán algunos tutoriales rápidos
 
-[https://github.com/Amhedriel/BASH_Git_GitHub_Markdown_Tutorial](Tutoriales de BASH, Git, GitHub y MD o MarkDown "Ir al repositorio")
+[https://github.com/Amhedriel/BASH_Git_GitHub_Markdown_Tutorial](Tutoriales  "Ir al repositorio")
 
