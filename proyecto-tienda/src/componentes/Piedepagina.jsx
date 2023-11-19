@@ -1,5 +1,5 @@
 import React from "react";
-import './Piedepagina';
+import './Piedepagina.css';
 
 function Piedepagina() {
     return (
@@ -17,3 +17,4 @@ function Piedepagina() {
     )
 }
  
+export default Piedepagina;
