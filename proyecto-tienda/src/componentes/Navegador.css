@@ -1,7 +1,42 @@
+.navegador {
+    background-color:#e2e97f86;
+    color: #021c1e;
+    padding: 10%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: blanchedalmond;
+  }
 
 .logo{
-    color: brown;
+    font-size: 45px;
+    font-weight: bolder;
+    margin-right: 20px;
+    color: #021c1e;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 10px;
+    color: #004445;
+    font-weight: bolder;
+    font-size: x-large;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
 
 
 

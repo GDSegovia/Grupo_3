@@ -1,11 +1,10 @@
 import React from 'react';
-import Navegador from './componentes/Navegador.css';
+import './Navegador.css';
 
-function Navegador (){
+function Navegador () {
     return(
-        <nav className='navegador'>
+        <nav className ='navegador'>
                 <p className='logo'>Autitos</p>
-
                 <ul>
                     <li>HomePage</li>
                     <li>AgregarAutos</li>
