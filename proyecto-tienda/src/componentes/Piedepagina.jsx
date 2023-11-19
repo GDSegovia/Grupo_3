@@ -17,3 +17,4 @@ function Piedepagina() {
     )
 }
  
+export default Piedepagina;
