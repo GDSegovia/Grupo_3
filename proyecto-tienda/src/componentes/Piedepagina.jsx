@@ -16,5 +16,4 @@ function Piedepagina() {
         </footer>
     )
 }
-
-export default Piedepagina;
+ 
