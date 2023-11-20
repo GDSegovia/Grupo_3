@@ -1,14 +1,25 @@
 import React from 'react';
 import Navegador from './componentes/Navegador.jsx';
 import Piedepagina from './componentes/Piedepagina.jsx'
+import Hero from './componentes/Hero.jsx';
+
 
 function App () {
   return (
-  
-    <div>
-      <Navegador></Navegador>
-      <Piedepagina></Piedepagina>
-    </div>
+    <section>
+      <header>
+        <Navegador></Navegador>
+      </header>
+      <main>
+        <section>
+          <Hero></Hero>
+        </section>
+
+      </main>
+      <footer>
+        <Piedepagina></Piedepagina>
+      </footer>
+    </section>
 
   )
 

@@ -1,0 +1,62 @@
+/* Estilos generales para el contenedor, el cuerpo y las fuentes */
+.container {
+  font-family: 'Roboto', Nunito ,sans-serif;
+  /* height: 100vh; */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  height: 50%;
+}
+
+.container {
+
+  background-image: url("/proyecto-tienda/src/assets/Coleccion_de_Autos_karen-vardazaryan-JBrfoV-BZts-unsplash.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2.2rem;
+  margin: 10px 0;
+}
+
+h1,
+h2,
+.paragraph-1 {
+  color: lightgray;
+}
+
+.button {
+  cursor: pointer;
+  background-color: #21abde;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.button:hover {
+
+  background-color: #333;
+}
+
+.image {
+  width: 100%;
+  border-radius: 5px;
+}

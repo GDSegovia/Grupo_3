@@ -22,7 +22,7 @@ Con el título de nuestra eshop estamos apelando a un público variado, y gracia
 
 ### Por lo tanto
 
-El objetivo de la tienda online “MiniCars Toys” es vender autos de juguete en miniatura a un público variado y exigente, que busca calidad, originalidad y diversión. Para lograr este objetivo, se debe conocer el perfil, las preferencias y el comportamiento de los clientes potenciales, y ofrecerles una propuesta de valor que satisfaga sus necesidades y expectativas.
+El objetivo de la tienda online **“MiniCars Toys”** es vender autos de juguete en miniatura a un público variado y exigente, que busca calidad, originalidad y diversión. Para lograr este objetivo, se debe conocer el perfil, las preferencias y el comportamiento de los clientes potenciales, y ofrecerles una propuesta de valor que satisfaga sus necesidades y expectativas.
 
 Para ello, se han creado tres buyer personas basados en el nombre de la tienda, que representan a tres segmentos de mercado diferentes: niños, padres y coleccionistas.
 
@@ -34,9 +34,13 @@ Para ello, se han creado tres buyer personas basados en el nombre de la tienda, 
 
 * **Martín:** Un ingeniero mecánico de 28 años que es un apasionado de los autos y los colecciona. Busca una tienda que le ofrezca autos de juguete exclusivos, de alta calidad y con detalles realistas, que le permitan ampliar y mejorar su colección.
 
-Estos buyer personas nos permiten identificar las características, los beneficios y los valores que la tienda debe comunicar y ofrecer a cada uno de ellos, así como las estrategias de marketing y ventas más adecuadas para atraerlos, fidelizarlos y convertirlos en clientes.
+Dichos buyer personas nos permiten identificar las características, los beneficios y los valores que la tienda debe comunicar y ofrecer a cada uno de ellos, así como las estrategias de marketing y ventas más adecuadas para atraerlos, fidelizarlos y convertirlos en clientes.
 
 ---
 
-
+**Atribuciones:**
+Foto de Karen Vardazaryan en Unsplash
+  
+Foto de Nick en Unsplash
+  
 
