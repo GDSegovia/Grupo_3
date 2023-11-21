@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css'
 import Navegador from './componentes/Navegador.jsx';
 import Piedepagina from './componentes/Piedepagina.jsx'
 import Hero from './componentes/Hero.jsx';

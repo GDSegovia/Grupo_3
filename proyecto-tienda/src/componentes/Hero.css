@@ -1,62 +1,147 @@
 /* Estilos generales para el contenedor, el cuerpo y las fuentes */
-.container {
-  font-family: 'Roboto', Nunito ,sans-serif;
-  /* height: 100vh; */
-  width: 100%;
+:root {
+  --azul-oscuro: #1e90ff;
+  --azul-claro: #99CCFF;
+  --Gris: #CCCCCC;
+  --Rojo: #FF0000;
+  --Amarillo: #FFFF00;
+  --blanco: #ffffff;
+  --negro: #333;
+  --negro-blend: #33333380;
+}
+
+*{
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-.hero {
-  height: 50%;
-}
+
 
 .container {
-
-  background-image: url("/proyecto-tienda/src/assets/Coleccion_de_Autos_karen-vardazaryan-JBrfoV-BZts-unsplash.jpg");
-
-  background-size: cover;
-  background-position: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  font-family: 'Roboto', Nunito, sans-serif;
+  /* height: 100vh; */
+  width: 100%;
+  margin: 0;
+  padding: 0;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  /* align-items: center; */
   justify-content: space-between;
-  padding: 10px;
+  align-items: flex-start;
+}
+
+.hero {
+  padding: 2% 3%;
+  background-image: url("../assets/img/Coleccion_de_Autos_karen-vardazaryan-JBrfoV-BZts-unsplash.jpg");
+  background-blend-mode: rgba(0, 0, 0, 0.9);
+  background-size: auto;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+
 }
 
 h1 {
   font-size: 3rem;
   font-weight: bold;
+  margin: 1% 3%;
+  letter-spacing: 5px;
+  word-spacing: 10px;
 }
 
 h2 {
-  font-size: 2.2rem;
-  margin: 10px 0;
+  font-size: 2.0rem;
+  margin: 1% 2%;
 }
 
 h1,
 h2,
 .paragraph-1 {
-  color: lightgray;
+  margin: 1% 2%;
+  color: var(--blanco);
+  background-color: var(--negro-blend);
+  
+}
+
+.paragraph-1 {
+  text-align: justify;
+  font-weight: 300;
+  line-height: 1.5rem;
 }
 
 .button {
   cursor: pointer;
-  background-color: #21abde;
-  color: white;
+  background-color: var(--Rojo);
+  color: var(--blanco);
   padding: 10px;
+  border: 2px solid var(--Amarillo);
   border-radius: 5px;
-  border: none;
   text-decoration: none;
   transition: 0.2s ease;
+  display: block;
+  margin: 0 auto;
 }
 
 .button:hover {
 
-  background-color: #333;
+  background-color: var(--Amarillo);
+  color: var(--azul-oscuro);
 }
 
 .image {
   width: 100%;
+}
+
+/*----------------------*\
+   Hero Métodos de pago
+\*----------------------*/
+.title-2_2{
+  color: var(--negro);
+  background-color: var(--Gris);
+}
+
+.pago_hero{
+  width: 100%;
+  padding: 2rem 4rem;
+  color: var(--azul-claro);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+
+.pay_cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: center;
+
+}
+
+
+.pay_credit,
+.pay_cash{
+  cursor: pointer;
+  background-color: var(--azul-oscuro);
+  color: var(--blanco);
+  padding: 10px;
   border-radius: 5px;
+  text-decoration: none;
+  transition: 0.2s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+.pay_credit:hover {
+
+  background-color: var(--azul-claro);
+  color: var(--azul-oscuro);
+}
+
+.pay_cash:hover {
+
+  background-color: var(--azul-claro);
+  color: var(--azul-oscuro);
 }

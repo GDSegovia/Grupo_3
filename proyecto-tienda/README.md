@@ -38,7 +38,37 @@ Dichos buyer personas nos permiten identificar las características, los benefic
 
 ---
 
+## Colores
+
+Para un eshop de autos de juguete, se eligió una paleta de colores que sea acorde con el tipo de producto, el público al que nos dirigimos y la imagen que quieres proyectar.
+
+Una paleta de colores que podrías usar es la siguiente:
+
+- Azul oscuro: #333399
+- Azul claro: #99CCFF
+- Blanco: #FFFFFF
+- Gris: #CCCCCC
+- Rojo: #FF0000
+- Amarillo: #FFFF00
+
+Esta paleta tiene los siguientes beneficios:
+
+- El azul oscuro es un color que transmite confianza, seguridad y profesionalismo, y que puede ser usado como color de fondo para la cabecera y el pie de página de tu sitio web, así como para los botones y los enlaces.
+- El azul claro es un color que transmite frescura, modernidad y diversión, y que puede ser usado como color de fondo para la sección principal de tu sitio web, así como para los títulos y los textos.
+- El blanco es un color que transmite limpieza, claridad y simplicidad, y que puede ser usado como color de fondo para el cuerpo de tu sitio web, así como para los bordes y los espacios en blanco.
+- El gris es un color que transmite neutralidad, equilibrio y elegancia, y que puede ser usado como color de fondo para las secciones secundarias de tu sitio web, así como para los textos y los iconos.
+- El rojo es un color que transmite energía, pasión y acción, y que puede ser usado como color de acento para resaltar los elementos más importantes de tu sitio web, como la llamada a la acción, las ofertas y las promociones.
+- El amarillo es un color que transmite alegría, optimismo y atención, y que puede ser usado como color de acento para resaltar los elementos más atractivos de tu sitio web, como los productos, las imágenes y las valoraciones.
+
+Esta paleta combina colores fríos y cálidos, creando un contraste y una armonía que puede captar la atención y el interés de los usuarios. Además, esta paleta está inspirada en los colores de los autos de juguete, lo que puede generar una conexión y una identificación con el producto. 
+
+Por último, esta paleta es adecuada para un público variado y exigente, que busca calidad, originalidad y diversión.
+
+---
+
 **Atribuciones:**
+
+*Imágenes*
 Foto de Karen Vardazaryan en Unsplash
   
 Foto de Nick en Unsplash
