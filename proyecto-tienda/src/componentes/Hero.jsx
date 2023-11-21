@@ -1,19 +1,9 @@
-// import React from "react";
-
-// function Hero() {
-//   return (
-//     <section className="hero-section">
-//       <h1 className="title"></h1>
-
-
-//     </section>
-//   )
-// }
-
-// export default Hero;
-
 import React from 'react';
-// import Coleccion from '../assets/img/Coleccion_de_Autos_karen-vardazaryan-JBrfoV-BZts-unsplash.jpg'
+import Credito from '../assets/icons/Icon_credit_card.svg';
+import Debito from '../assets/icons/Icon_debit_card.svg';
+import Efectivo from '../assets/icons/Icon-money.svg';
+import Otros from '../assets/icons/Icon-wallet.svg';
+
 import './Hero.css';
 
 
@@ -29,49 +19,42 @@ function Hero() {
             
             <h2 className="hero_title-2">La mejor tienda de autos de juguete</h2>
             <p className="paragraph-1">En MiniCars Toys encontrarás una gran variedad de autos de juguete de diferentes marcas, modelos y estilos. Tenemos autos para todos los gustos y edades, desde los más clásicos hasta los más modernos. Todos nuestros autos son de alta calidad y tienen detalles realistas. Además, te ofrecemos los mejores precios y envíos rápidos y seguros.</p>
-            <button className="button">Ver catálogo</button>
+            <button className="button" >Ver catálogo</button>
 
           </article>
-          {/* <img src={Coleccion} alt="Autos de juguete- Foto de Karen Vardazaryan en Unsplash" className="image"/> */}
         </section>
       </article>
-      <section className='pago_hero'>
-        <h2 className="title-2_2">Métodos de pago</h2>
-        <br />
+      <br />
 
-        <div className="card_container-1">
-          <img src="" alt="" srcset="" />
-          <div>
-            <h3>Tarjeta de Crédito</h3>
+      <section className='pago_hero'>
+        <div className="hero_card-container-1 hero_cards">         
+          <a href="#" className='credito'><img className="hero_icons" src={Credito} alt="hero_icons"></img></a>
+          <div className='hero_text-card'>
+            <h3 className='title-3_2'>Tarjeta de Crédito</h3>
             <a className="hero_card-a" href="#" target="_blank" rel="noopener noreferrer">Ver bancos</a>
           </div>
         </div>
-        <div className="card_container-2">
-          <img src="" alt="" srcset="" />
-          <div>
-            <h3>Tarjeta de Débito</h3>
+        <div className="hero_card-container-2 hero_cards">
+          <a href="#" className='debito'><img src={Debito} className="hero_icons" alt="Tarjeta de débito"/></a>
+          <div className='hero_text-card'>
+            <h3 className='title-3_2'>Tarjeta de Débito</h3>
             <a className="hero_card-a" href="#" target="_blank" rel="noopener noreferrer">Ver más</a>
           </div>
         </div>
-        <div className="card_container-3">
-          <img src="" alt="" srcset="" />
-          <div>
-            <h3>Efectivo</h3>
+        <div className="hero_card-container-3 hero_cards">
+          <a href="#" className='efectivo'><img src={Efectivo} className="hero_icons" alt="hero_icons"></img></a>
+          <div className='hero_text-card'>
+            <h3 className='title-3_2'>Efectivo</h3>
             <a className="hero_card-a" href="#" target="_blank" rel="noopener noreferrer">Ver más</a>
           </div>
         </div>
-        <div className="card_container-4">
-          <img src="" alt="" srcset="" />
-          <div>
-            <h3>Otros medios de Pago</h3>
+        <div className="hero_card-container-4 hero_cards">
+          <a href="#" className='otros'><img src={Otros} className="hero_icons" alt="hero_icons"></img></a>
+          <div className='hero_text-card'>
+            <h3 className='title-3_2'>Otros medios de Pago</h3>
             <a className="hero_card-a" href="#" target="_blank" rel="noopener noreferrer">Más opciones</a>
           </div>
         </div>
-
-        {/* <div className='pay_cards'>
-          <button className="pay_credit">Tarjeta de Crédito</button>
-          <button className="pay_cash">Pago al Contado</button>
-        </div> */}
       </section>
     </section>
   );

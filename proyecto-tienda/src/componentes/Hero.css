@@ -19,14 +19,12 @@
 
 
 .container {
-  font-family: 'Roboto', Nunito, sans-serif;
-  /* height: 100vh; */
+  font-family: 'Roboto', 'Nunito', sans-serif;
   width: 100%;
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: space-between;
   align-items: flex-start;
 }
@@ -89,64 +87,93 @@ h1,
   color: var(--azul-oscuro);
 }
 
-.image {
-  width: 100%;
-}
 
 /*----------------------*\
    Hero Métodos de pago
 \*----------------------*/
-.title-2_2{
-  color: var(--negro);
-  background-color: var(--Gris);
-}
 
 .pago_hero{
-  width: 100%;
-  padding: 2rem 4rem;
-  color: var(--azul-claro);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-
-}
-
-
-
-
-/* .pay_cards{
+  display: block;
+  width: 90%;
+  background-color: var(--blanco);
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  align-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 4px;
+  align-items: center;
+}
+
+.hero_cards{
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+
+  .title-3_2 {
+    color: var(--negro);
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+
+  .hero_card-a {
+    color: var(--azul-oscuro);
+    font-size: 0.7rem;
+    font-weight: 300;
+    padding: 0;
+  }
+  .hero_card-a:hover {
+    color: var(--azul-claro);
+  }
+
+}
+
+.credito,
+.debito,
+.efectivo,
+.otros{
+  margin: 0 1rem 0;
+  width: 40px;
+  height: 40px;
+  line-height: 35px;
+  border: 1px solid var(--azul-oscuro);
+  border-radius: 25px;
+  padding: auto;
+}
+
+
+/*-----------------*\
+        QUERYS
+\*-----------------*/
+
+
+@media (max-width: 904px) {
+
+  .hero_card-container-3{
+    display: none;
+  }
 
 }
 
 
-.pay_credit,
-.pay_cash{
-  cursor: pointer;
-  background-color: var(--azul-oscuro);
-  color: var(--blanco);
-  padding: 10px;
-  border-radius: 5px;
-  text-decoration: none;
-  transition: 0.2s ease;
-  display: block;
-  margin: 0 auto;
+@media (max-width: 500px) {
+  h1 {
+      font-size: 2rem;
+      letter-spacing: 2px;
+    }
+  
+    .hero_title-2 {
+      font-size: 1.5rem;
+    }
+  
+    .paragraph-1 {
+      font-size: 14px;
+      line-height: 1.2rem;
+    }
+
+    .debito,
+    .credito,
+    .otros{
+      display: none;
+    }
 }
-
-.pay_credit:hover {
-
-  background-color: var(--azul-claro);
-  color: var(--azul-oscuro);
-}
-
-.pay_cash:hover {
-
-  background-color: var(--azul-claro);
-  color: var(--azul-oscuro);
-} */
-
-
-/*----------------*/
