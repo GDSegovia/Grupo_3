@@ -25,9 +25,9 @@ function Hero() {
       <article className="hero">
         <section className="section_hero">
           <article className="article_hero">
-            <h1 className="title">“MiniCars Toys”</h1>
+            <h1 id="title">“MiniCars Toys”</h1>
             
-            <h2 className="title-2_!">La mejor tienda de autos de juguete</h2>
+            <h2 className="hero_title-2">La mejor tienda de autos de juguete</h2>
             <p className="paragraph-1">En MiniCars Toys encontrarás una gran variedad de autos de juguete de diferentes marcas, modelos y estilos. Tenemos autos para todos los gustos y edades, desde los más clásicos hasta los más modernos. Todos nuestros autos son de alta calidad y tienen detalles realistas. Además, te ofrecemos los mejores precios y envíos rápidos y seguros.</p>
             <button className="button">Ver catálogo</button>
 
@@ -38,10 +38,40 @@ function Hero() {
       <section className='pago_hero'>
         <h2 className="title-2_2">Métodos de pago</h2>
         <br />
-        <div className='pay_cards'>
+
+        <div className="card_container-1">
+          <img src="" alt="" srcset="" />
+          <div>
+            <h3>Tarjeta de Crédito</h3>
+            <a className="hero_card-a" href="#" target="_blank" rel="noopener noreferrer">Ver bancos</a>
+          </div>
+        </div>
+        <div className="card_container-2">
+          <img src="" alt="" srcset="" />
+          <div>
+            <h3>Tarjeta de Débito</h3>
+            <a className="hero_card-a" href="#" target="_blank" rel="noopener noreferrer">Ver más</a>
+          </div>
+        </div>
+        <div className="card_container-3">
+          <img src="" alt="" srcset="" />
+          <div>
+            <h3>Efectivo</h3>
+            <a className="hero_card-a" href="#" target="_blank" rel="noopener noreferrer">Ver más</a>
+          </div>
+        </div>
+        <div className="card_container-4">
+          <img src="" alt="" srcset="" />
+          <div>
+            <h3>Otros medios de Pago</h3>
+            <a className="hero_card-a" href="#" target="_blank" rel="noopener noreferrer">Más opciones</a>
+          </div>
+        </div>
+
+        {/* <div className='pay_cards'>
           <button className="pay_credit">Tarjeta de Crédito</button>
           <button className="pay_cash">Pago al Contado</button>
-        </div>
+        </div> */}
       </section>
     </section>
   );
