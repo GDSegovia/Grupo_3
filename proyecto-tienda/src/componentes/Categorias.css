@@ -1,0 +1,49 @@
+:root {
+  --azul-oscuro: #1e90ff;
+  --azul-claro: #99CCFF;
+  --Gris: #CCCCCC;
+  --Rojo: #FF0000;
+  --Amarillo: #FFFF00;
+  --blanco: #ffffff;
+  --negro: #333;
+  --negro-blend: #33333380;
+}
+
+
+
+.categorias{
+  width: 900x;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+}
+
+.categorias_list{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-evenly;
+}
+
+.categorias_list a{
+  padding: 1rem;
+  width: 200px;
+  height: auto;
+}
+
+.categorias_list a h3{
+  background-color: var(--azul-oscuro);
+  border-radius: 8px;
+  text-align: center;
+}
+.categorias_list a img{
+  width: 200px;
+  border-radius: 8px;
+}
+
+
+
+
