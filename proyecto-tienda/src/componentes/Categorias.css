@@ -12,11 +12,16 @@
 
 
 .categorias{
+  font-family: 'Roboto', 'Nunito', sans-serif;
   width: 900x;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   
+}
+
+.categorias_title{
+  margin: 2rem 4rem;
 }
 
 .categorias_list{
@@ -35,6 +40,7 @@
 }
 
 .categorias_list a h3{
+
   background-color: var(--azul-oscuro);
   border-radius: 8px;
   text-align: center;

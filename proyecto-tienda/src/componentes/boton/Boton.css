@@ -1,0 +1,5 @@
+.boton:hover {
+
+  background-color: var(--Amarillo);
+  color: var(--azul-oscuro);
+}

@@ -13,13 +13,8 @@ function App () {
         <Navegador></Navegador>
       </header>
       <main>
-        <section>
-          <Hero></Hero>
-        </section>
-
-        <section>
-          <Categorias></Categorias>
-        </section>
+          <Hero />
+          <Categorias />
       </main>
       <footer>
         <Piedepagina></Piedepagina>

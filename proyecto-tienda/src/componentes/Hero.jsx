@@ -3,13 +3,17 @@ import Credito from '../assets/icons/Icon_credit_card.svg';
 import Debito from '../assets/icons/Icon_debit_card.svg';
 import Efectivo from '../assets/icons/Icon-money.svg';
 import Otros from '../assets/icons/Icon-wallet.svg';
-
 import './Hero.css';
+import Boton from '.././componentes/boton/Boton';
 
 
 // Definimos el componente App, que será el que renderice nuestra HERO landing page
 
 function Hero() {
+  const hadleClickEnBoton = () => {
+    alert('Hiciste click');
+  }
+
   return (
     <section className="container">
       <article className="hero">
@@ -19,7 +23,8 @@ function Hero() {
             
             <h2 className="hero_title-2">La mejor tienda de autos de juguete</h2>
             <p className="paragraph-1">En MiniCars Toys encontrarás una gran variedad de autos de juguete de diferentes marcas, modelos y estilos. Tenemos autos para todos los gustos y edades, desde los más clásicos hasta los más modernos. Todos nuestros autos son de alta calidad y tienen detalles realistas. Además, te ofrecemos los mejores precios y envíos rápidos y seguros.</p>
-            <button className="button" >Ver catálogo</button>
+            {/* <button className="button" >Ver catálogo</button> */}
+            <Boton className="boton" color="var(--Rojo)" texto="Ver Categorías" onClick={hadleClickEnBoton}/>
 
           </article>
         </section>

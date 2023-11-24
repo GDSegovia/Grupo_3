@@ -68,7 +68,7 @@ h1,
   line-height: 1.5rem;
 }
 
-.button {
+/* .button {
   cursor: pointer;
   background-color: var(--Rojo);
   color: var(--blanco);
@@ -85,7 +85,7 @@ h1,
 
   background-color: var(--Amarillo);
   color: var(--azul-oscuro);
-}
+} */
 
 
 /*----------------------*\
