@@ -177,3 +177,12 @@ h1,
       display: none;
     }
 }
+
+
+@media (max-width: 312px) {
+    .debito,
+    .credito,
+    .otros{
+      display: block;
+    }
+}

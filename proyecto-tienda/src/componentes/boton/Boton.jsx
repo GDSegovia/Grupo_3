@@ -1,4 +1,4 @@
-import './Boton.css'
+
 
 import PropTypes from 'prop-types';
 
@@ -9,7 +9,9 @@ function Boton(props) {
     cursor: 'pointer',
     padding: '8px',
     display: 'block',
-    margin: '1rem, auto',
+    margin: '1rem',
+    marginLeft: 'auto',
+    marginRight: 'auto',
     borderColor: 'var(--Amarillo)',
     borderRadius: '5px',
     textDecoration: 'none',
@@ -18,6 +20,7 @@ function Boton(props) {
   return (
     <button style={estilosBoton} onClick={props.onClick}>{props.texto}</button>
   );
+
 }
 
 Boton.PropTypes = {
