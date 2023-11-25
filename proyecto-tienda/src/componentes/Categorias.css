@@ -11,7 +11,8 @@
 
 
 
-.categorias{
+.categorias,
+.especiales{
   font-family: 'Roboto', 'Nunito', sans-serif;
   width: 900x;
   display: flex;
@@ -20,11 +21,13 @@
   
 }
 
-.categorias_title{
+.categorias_title,
+.especiales_title{
   margin: 2rem 4rem;
 }
 
-.categorias_list{
+.categorias_list,
+.especiales_list{
 
   display: flex;
   flex-direction: row;
@@ -33,19 +36,22 @@
   justify-content: space-evenly;
 }
 
-.categorias_list a{
+.categorias_list a,
+.especiales_list a{
   padding: 1rem;
   width: 200px;
   height: auto;
 }
 
-.categorias_list a h3{
+.categorias_list a h3,
+.especiales_list a h3{
 
   background-color: var(--azul-oscuro);
   border-radius: 8px;
   text-align: center;
 }
-.categorias_list a img{
+.categorias_list a img,
+.especiales_list a img{
   width: 200px;
   border-radius: 8px;
 }

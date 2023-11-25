@@ -1,21 +1,21 @@
 import React from 'react';
-import Credito from '../assets/img/especiales/especiales_Cabriolett_Silver-Gold.jpeg';
-import Debito from '../assets/img/especiales/especiales_Forb_Minigun_Tournament.jpg';
-import Efectivo from '../assets/img/especiales/especiales_Forb_Minigun_Tournament.jpg';
-import Otros from '../assets/img/especiales/especiales_Skoda_633_Polizei.jpg';
+import Cabriolet from '../../../assets/img/especiales/especiales_Cabriolett_Silver-Gold.jpeg'
+import Chevrolett from '../../../assets/img/especiales/especiales_Chevrolett_Modify_SuperCharged.jpg';
+import Forb from '../../../assets/img/especiales/especiales_Forb_Minigun_Tournament.jpg';
+import Skoda from '../../../assets/img/especiales/especiales_Skoda_633_Polizei.jpg';
 
-import '../especiales/Especiales.css';
+import '../../Categorias.css';
 
 function Especiales() {
   return (
-    <section className="especiales">
+    <section className="especiales" id="especiales">
       <article>
-        <h2 className="especiales_title">Nuestros Produtos:</h2>
-        <div>
-          <a href="" className="especiales_actuales"><img src="#" alt="actuales" className="actuales" /></a>
-          <a href="" className="especiales_antiguos"><img src="#" alt="antiguos" className="antiguos" /></a>
-          <a href="" className="especiales_deportivos"><img src="#" alt="deportivos" className="deportivos" /></a>
-          <a href="" className="especiales_especiales"><img src={ } alt="especiales" className="especiales" /></a>
+        <h2 className="especiales_title">Especiales:</h2>
+        <div className='especiales_list'>
+          <a href="#" className="especiales cabriolet"><img src={Cabriolet} alt="actuales" className="actuales" /></a>
+          <a href="#" className="especiales chevrolett"><img src={Chevrolett} alt="especiales Chevrolett Modify SuperCharged" className="antiguos" /></a>
+          <a href="" className="especiales_deportivos"><img src={Forb} alt="deportivos" className="deportivos" /></a>
+          <a href="" className="especiales_especiales"><img src={Skoda} alt="especiales" className="especiales" /></a>
         </div>
 
       </article>
