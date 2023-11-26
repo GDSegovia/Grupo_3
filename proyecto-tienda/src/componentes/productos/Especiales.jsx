@@ -1,12 +1,12 @@
 // import React, { useState, useEffect } from "react";
 
 import React from 'react';
-import Cabriolet from '../../../assets/img/especiales/especiales_Cabriolett_Silver-Gold.jpeg'
-import Chevrolett from '../../../assets/img/especiales/especiales_Chevrolett_Modify_SuperCharged.jpg';
-import Forb from '../../../assets/img/especiales/especiales_Forb_Minigun_Tournament.jpg';
-import Skoda from '../../../assets/img/especiales/especiales_Skoda_633_Polizei.jpg';
+import Cabriolet from '../../assets/img/especiales/especiales_Cabriolett_Silver-Gold.jpeg'
+import Chevrolett from '../../assets/img/especiales/especiales_Chevrolett_Modify_SuperCharged.jpg';
+import Forb from '../../assets/img/especiales/especiales_Forb_Minigun_Tournament.jpg';
+import Skoda from '../../assets/img/especiales/especiales_Skoda_633_Polizei.jpg';
 
-import '../../Categorias.css';
+import '../Categorias.css';
 
 function Especiales() {
   return (

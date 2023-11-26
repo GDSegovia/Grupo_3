@@ -12,9 +12,9 @@ function Categorias() {
       <article>
         <h2 className="categorias_title">Nuestros Produtos:</h2>
         <div className='categorias_list'>
-          <a href="#" className="categorias"><h3>Actuales</h3><img src={Bmvv} alt="actuales" className="actuales" /></a>
-          <a href="#" className="categorias"><h3>Antiguos</h3><img src={Plymout} alt="antiguos" className="antiguos" /></a>
-          <a href="#" className="categorias"><h3>Deportivos</h3><img src={Paganni} alt="deportivos" className="deportivos" /></a>
+          <a href="#actuales" className="categorias"><h3>Actuales</h3><img src={Bmvv} alt="actuales" className="actuales" /></a>
+          <a href="#antiguos" className="categorias"><h3>Antiguos</h3><img src={Plymout} alt="antiguos" className="antiguos" /></a>
+          <a href="#deportivos" className="categorias"><h3>Deportivos</h3><img src={Paganni} alt="deportivos" className="deportivos" /></a>
           <a href="#especiales" className="categorias"><h3>Especiales</h3><img src={Cabriolet} alt="especiales" className="especiales" /></a>
         </div>
       

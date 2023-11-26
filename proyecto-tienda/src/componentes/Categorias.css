@@ -12,9 +12,12 @@
 
 
 .categorias,
-.especiales{
+.banner,
+.actuales,
+.antiguos,
+.especiales,
+.deportivos{
   font-family: 'Roboto', 'Nunito', sans-serif;
-  width: 900x;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -22,11 +25,20 @@
 }
 
 .categorias_title,
+.banner_title,
+.antiguos_title,
+.actuales_title,
+.deportivos_title,
 .especiales_title{
   margin: 2rem 4rem;
 }
 
+
+
 .categorias_list,
+.actuales_list,
+.antiguos_list,
+.deportivos_list,
 .especiales_list{
 
   display: flex;
@@ -36,21 +48,36 @@
   justify-content: space-evenly;
 }
 
+.banner_list a img{
+  display: block;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 100%;
+  height: auto;
+  
+}
+
 .categorias_list a,
+.actuales_list a,
+.antiguos_list a,
+.deportivos_list a,
 .especiales_list a{
   padding: 1rem;
   width: 200px;
   height: auto;
 }
 
-.categorias_list a h3,
-.especiales_list a h3{
+.categorias_list a h3{
 
   background-color: var(--azul-oscuro);
   border-radius: 8px;
   text-align: center;
 }
+
 .categorias_list a img,
+.actuales_list a img,
+.antiguos_list a img,
+.deportivos_list a img,
 .especiales_list a img{
   width: 200px;
   border-radius: 8px;
