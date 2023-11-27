@@ -1,11 +1,13 @@
-import React from 'react';
 import { useParams } from 'react-router-dom';
 import Navegador from '../Navegador';
 import Piedepagina from '../Piedepagina';
 import DatosAutos from './DatosAutos';
 import Boton from '../boton/Boton';
 import './ProductoIn.css';
-import Carrito from '../Carrito';
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
+
 
 function ProductoIn({ addToCart, cart }) {
   const { productId } = useParams(); // Obtén la ID del producto de la ruta
@@ -19,10 +21,10 @@ function ProductoIn({ addToCart, cart }) {
   }
 
   // Aca deberia hacer que se mande al carrito con el boton
-  const hadleClickEnBoton = () => {
+  const handleClickEnBoton = () => {
     addToCart(producto);
+    history.push('/carrito'); // Redirige a la página del carrito
   }
-
   // Muestra los detalles del producto
   return (
     <section>
@@ -41,7 +43,6 @@ function ProductoIn({ addToCart, cart }) {
             </div>
             <p className="precio"><strong>Precio: <span className="precio-destacado">{producto.Precio}</span></strong></p> <br />
             <Boton className="boton" color="#012a52" texto="Añadir al Carrito" onClick={handleClickEnBoton} />
-      <Link to="/carrito">Ir al Carrito</Link>
           </div>
         </div>
       </main>

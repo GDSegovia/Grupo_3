@@ -1,34 +1,22 @@
-div {
+.Carrito {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: 100vh;
+    margin-bottom: -1rem;
   }
   
   /* Estilo para la lista de productos en el carrito */
-  ul {
+  .Carrito ul {
     list-style: none;
     padding: 0;
   }
   
   /* Estilo para cada elemento de la lista de productos */
-  li {
+  .Carrito li {
     margin-bottom: 10px;
   }
   
-  /* Estilo para el botón de añadir al carrito */
-  button {
-    background-color: #4caf50;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  /* Estilo para el botón de añadir al carrito al pasar el ratón sobre él */
-  button:hover {
-    background-color: #45a049;
-  }
