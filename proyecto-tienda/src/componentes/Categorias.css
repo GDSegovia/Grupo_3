@@ -9,6 +9,7 @@
 .antiguos,
 .especiales,
 .deportivos{
+  background-color: var(--negro);
   font-family: 'Roboto', 'Nunito', sans-serif;
   display: flex;
   flex-direction: column;
@@ -21,7 +22,8 @@
 .actuales_title,
 .deportivos_title,
 .especiales_title{
-  margin: 2rem 4rem;
+  color: var(--blanco);
+  margin: 0 auto;
 }
 
 
@@ -31,7 +33,6 @@
 .antiguos_list,
 .deportivos_list,
 .especiales_list{
-
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -67,14 +68,22 @@
   margin-bottom: -2px;
 }
 
-.categorias_list a img,
+.categorias_list a img{
+  width: 250px;
+  border-radius: 6px;
+}
+
 .actuales_list a img,
 .antiguos_list a img,
 .deportivos_list a img,
 .especiales_list a img{
-  width: 300px;
+  min-width: 300px;
+  max-width: 400px;
   border-radius: 6px;
+  position: static;
 }
+
+
 
 
 
