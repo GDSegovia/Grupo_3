@@ -3,8 +3,6 @@
 import React from 'react';
 import Baner from '../assets/img/banner_autos.webp';
 import './Banner.css';
-import Navegador from './Navegador';
-import Piedepagina from './Piedepagina';
 
 function Banner() {
   return (

@@ -27,12 +27,12 @@
     justify-content: space-between;
   }
   
-  footer {
+  /* footer {
     margin-top: auto;
-  }
+  } */
   
   @media (max-width: 768px) {
     .banner_title {
-        font-size: 1rem;
+        font-size: 1.2rem;
       }
   }
