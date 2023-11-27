@@ -3,11 +3,8 @@
   padding: 8px;
   text-align: center;
   width: 100%;
-  /* position: fixed; */
   bottom: 0;
-  max-width: 1200px;
   font-weight: 300;
-  font-size: 10px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -17,21 +14,14 @@
 
 .Piedepagina img {
   width: auto;
-  height: 1.5rem;
-  margin-right: 10px;
+  height: 50px;
+  margin-right: 1rem;
 }
 
 .Piedepagina a {
-  color: rgb(14, 13, 13);
   text-decoration: none;
-  font-size: 14px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.Piedepagina a.terminos,
-.Piedepagina a.ayuda {
-  color: #99CCFF;
-  font-size: 10px;
+  color: var(--blanco);
+  font-size: 1rem;
 }
 
 .Piedepagina a:hover {
@@ -40,8 +30,8 @@
 
 .Piedepagina p {
   margin: 5px 0; 
-  color: black;
+  color: var(--blanco);
   text-align: right; 
-  font-size: 12px; 
+  font-size: 1rem; 
   line-height: 1.2; 
 }

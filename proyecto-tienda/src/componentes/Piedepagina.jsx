@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/icons/Logo.jpg"
+import Logo from "../assets/icons/Logo-tipo.svg"
 import './Piedepagina.css';
 
 function Piedepagina() {
