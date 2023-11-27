@@ -1,9 +1,9 @@
 .navegador {
-  background-color: #333399;
+  background-color: var(--azul-oscuro);
   color: #021c1e;
   padding: 10px;
   width: 100%;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   height: 80px;

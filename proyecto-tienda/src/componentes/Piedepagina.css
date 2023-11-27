@@ -1,16 +1,13 @@
 .Piedepagina {
-  background-color: #333399;
-  color: #CCCCCC;
-  padding: 10px;
+  background-color: var(--azul-oscuro);
+  padding: 8px;
   text-align: center;
   width: 100%;
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
-  box-sizing: border-box;
-}
-
-.Piedepagina .contenido {
   max-width: 1200px;
+  font-weight: 300;
+  font-size: 10px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;

@@ -16,4 +16,4 @@ function Navegador() {
     );
 }
 
-export default Navegador;
+export default Navegador; 
