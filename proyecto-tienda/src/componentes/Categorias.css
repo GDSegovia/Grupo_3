@@ -54,7 +54,6 @@
 .deportivos_list a,
 .especiales_list a{
   padding: 1rem;
-  width: 200px;
   height: auto;
   color: white;
   text-decoration: none;
@@ -73,7 +72,7 @@
 .antiguos_list a img,
 .deportivos_list a img,
 .especiales_list a img{
-  width: 200px;
+  width: 300px;
   border-radius: 6px;
 }
 

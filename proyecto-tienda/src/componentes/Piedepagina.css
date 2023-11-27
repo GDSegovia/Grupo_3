@@ -2,15 +2,8 @@
   background-color: var(--azul-oscuro);
   padding: 8px;
   text-align: center;
-  width: 100%;
-<<<<<<< HEAD
+  width: 10;
   bottom: 0;
-=======
-  box-sizing: border-box; /* para incluir el padding en el ancho total */
-  /* position: fixed; */
-  bottom: 0;
-  /* max-width: 1200px; Elimina esta línea */
->>>>>>> c2a391d6af7012cfdb8e7af720c4a761bc01b859
   font-weight: 300;
   margin: 0 auto;
   display: flex;
@@ -35,6 +28,7 @@
 }
 
 .Piedepagina p {
+  font-weight: 300;
   margin: 5px 0; 
   color: var(--blanco);
   text-align: right; 
