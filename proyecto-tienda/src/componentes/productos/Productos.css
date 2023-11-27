@@ -3,42 +3,47 @@
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
+    min-height: 100vh;
+    margin-bottom: -1rem;
 }
 
 .auto-contenedor {
     text-align: center;
     margin: 10px;
-    width: 150px;
+    margin-bottom: 20px;
+    width: 200px;
     background-color: var(--azul-oscuro);
-    border-radius: 10px; /* Añadido para bordes redondeados */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 1); /* Añadido para un efecto de sombra */
-    transition: transform 0.3s ease-in-out; /* Añadido para un efecto de transición */
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 1); 
+    transition: transform 0.3s ease-in-out; 
 }
 
 .auto-contenedor:hover {
-    transform: scale(1.05); /* Añadido para un efecto de escala al pasar el ratón */
+    transform: scale(1.05); 
 }
 
 .auto-contenedor img {
     max-width: 100%;
     height: auto;
-    max-height: 100px;
+    border-radius: 10px; 
+    max-height: 150px;
 }
 
 .auto-contenedor p {
     color: white;
     margin-top: 10px;
+    margin-left: 10px; 
+    margin-right: 10px; 
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    text-decoration-color: var(--azul-oscuro); /* Añadido para quitar el subrayado */
-    transition: color 0.3s ease-in-out; /* Añadido para un efecto de transición en el cambio de color */
+    transition: color 0.3s ease-in-out; 
+    text-decoration: none !important;
 }
 
 
 .auto-contenedor:hover p {
     color: var(--azul-claro); /* Cambia el color al pasar el ratón */
-    text-decoration: underline; /* Puedes ajustar esto si deseas que aparezca subrayado al pasar el ratón */
 }
 
 .auto-contenedor a {

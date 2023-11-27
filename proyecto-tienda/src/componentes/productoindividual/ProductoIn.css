@@ -31,7 +31,6 @@
 .detalle-container {
   flex-grow: 1;
   text-align: left;
-  /* Centra el contenido del contenedor */
   margin-left: -8rem;
 }
 
@@ -52,11 +51,11 @@
 }
 
 .precio-destacado {
-  color: #00cc00; /* Color verde para destacar el precio */
+  color: #008f00; 
 }
 
 .boton {
-  margin-top: auto !important; /* Alinea el botón en la parte inferior */
+  margin-top: auto !important; 
 }
 
 .boton:hover {
