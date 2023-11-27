@@ -20,7 +20,7 @@ function Boton(props) {
 
 }
 
-Boton.PropTypes = {
+Boton.propTypes = {
   color: PropTypes.string,
   texto: PropTypes.string.isRequired,
   onClick: PropTypes.func,

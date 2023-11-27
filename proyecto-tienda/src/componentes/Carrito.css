@@ -7,6 +7,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     min-height: 100vh;
     margin-bottom: -1rem;
+    color: aliceblue;
   }
   
   /* Estilo para la lista de productos en el carrito */
