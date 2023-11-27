@@ -5,9 +5,6 @@ import DatosAutos from './DatosAutos';
 import Boton from '../boton/Boton';
 import './ProductoIn.css';
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import { useHistory } from 'react-router-dom';
-
 
 function ProductoIn({ addToCart, cart }) {
   const { productId } = useParams(); // Obtén la ID del producto de la ruta
