@@ -5,8 +5,9 @@ import DatosAutos from './DatosAutos';
 import Boton from '../boton/Boton';
 import './ProductoIn.css';
 import React, { useState, useEffect } from 'react';
+import AddToCart from '../AddToCart';
 
-function ProductoIn({ addToCart, cart }) {
+function ProductoIn() {
   const { productId } = useParams(); // Obtén la ID del producto de la ruta
 
   // Busca el producto por ID en el array DatosAutos
@@ -19,8 +20,8 @@ function ProductoIn({ addToCart, cart }) {
 
   // Aca deberia hacer que se mande al carrito con el boton
   const handleClickEnBoton = () => {
-    addToCart(producto);
-    history.push('/carrito'); // Redirige a la página del carrito
+    AddToCart(producto);
+    history.push('/Carrito'); // Redirige a la página del carrito
   }
   // Muestra los detalles del producto
   return (
