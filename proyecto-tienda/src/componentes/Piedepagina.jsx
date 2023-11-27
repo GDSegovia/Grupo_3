@@ -1,11 +1,12 @@
 import React from "react";
+import Logo from "../assets/icons/Logo.jpg"
 import './Piedepagina.css';
 
 function Piedepagina() {
   return (
     <footer className="Piedepagina">
 
-      <img src="#" alt="logo" />
+      <img src={Logo} alt="logo" />
 
       <a href="#">Terminos y Condiciones</a>
       <a href="#">Ayuda</a>

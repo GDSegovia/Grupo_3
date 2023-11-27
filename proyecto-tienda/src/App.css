@@ -2,8 +2,10 @@
   /* max-width: 1280px; */
   margin: 0;
   padding: 0;
-  background-color: #ddd;
+  background-color: var(--Gris);
   /* text-align: center; */
+  font-family: 'Roboto', 'Nunito', sans-serif;
+
 }
 
 :root {

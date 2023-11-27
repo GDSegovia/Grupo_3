@@ -19,9 +19,9 @@ function Categorias() {
 
   return (
     <>
-<header>
-  < Navegador />
-</header>
+    <header>
+      < Navegador />
+    </header>
     <section className="categorias">
         <h2 className="categorias_title">Elija una Categoria:</h2>
         <div className='categorias_list'>
@@ -30,11 +30,11 @@ function Categorias() {
           <a href="/Categorias/3" className="categorias"><h3>Deportivos</h3><img src={Paganni} alt="deportivos" className="deportivos" /></a>
           <a href="/Categorias/4" className="categorias"><h3>Especiales</h3><img src={Cabriolet} alt="especiales" className="especiales" /></a>
         </div>
-         {/* Utiliza CategoriasId como condición para renderizar el componente Actuales */}
-         {parseInt(CategoriasId) === 1 && <Actuales />}
-         {parseInt(CategoriasId) === 2 && <Antiguos />}
-         {parseInt(CategoriasId) === 3 && <Deportivos />}
-         {parseInt(CategoriasId) === 4 && <Especiales />}
+        {/* Utiliza CategoriasId como condición para renderizar el componente Actuales */}
+        {parseInt(CategoriasId) === 1 && <Actuales />}
+        {parseInt(CategoriasId) === 2 && <Antiguos />}
+        {parseInt(CategoriasId) === 3 && <Deportivos />}
+        {parseInt(CategoriasId) === 4 && <Especiales />}
       </section>
     <footer>
       <Piedepagina />

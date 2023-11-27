@@ -14,9 +14,10 @@
   align-items: center;
 }
 
+
 .Piedepagina img {
-  width: 100px;
-  height: auto;
+  width: auto;
+  height: 1.5rem;
   margin-right: 10px;
 }
 

@@ -13,7 +13,6 @@
 *{
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
 }
 
 
@@ -67,26 +66,6 @@ h1,
   font-weight: 300;
   line-height: 1.5rem;
 }
-
-/* .button {
-  cursor: pointer;
-  background-color: var(--Rojo);
-  color: var(--blanco);
-  padding: 10px;
-  border: 2px solid var(--Amarillo);
-  border-radius: 5px;
-  text-decoration: none;
-  transition: 0.2s ease;
-  display: block;
-  margin: 0 auto;
-}
-
-.button:hover {
-
-  background-color: var(--Amarillo);
-  color: var(--azul-oscuro);
-} */
-
 
 /*----------------------*\
    Hero Métodos de pago

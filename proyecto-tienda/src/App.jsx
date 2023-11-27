@@ -5,7 +5,7 @@ import Navegador from './componentes/Navegador.jsx';
 import Hero from './componentes/Hero.jsx';
 // import Menu from './componentes/menu/Menu.jsx';
 import Piedepagina from './componentes/Piedepagina.jsx'
-import FormularioDeAutos from './componentes/productos/FormularioDeAutos.jsx';
+// import FormularioDeAutos from './componentes/productos/FormularioDeAutos.jsx';
 import './App.css'
 
 
@@ -30,7 +30,6 @@ function App() {
       </header>
       <main>
         <Hero />
-        <FormularioDeAutos />
       </main>
       <footer>
         <Piedepagina></Piedepagina>
