@@ -6,6 +6,8 @@ import { BrowserRouter, RouterProvider, createBrowserRouter } from "react-router
 import ProductoIn from './componentes/productoindividual/ProductoIn.jsx';
 import Banner from './componentes/Banner.jsx';
 import Categorias from './componentes/Categorias.jsx';
+import Productos from './componentes/productos/Productos.jsx';
+import Carrito from "./componentes/Carrito.jsx"
 
 const router = createBrowserRouter([
   {
@@ -35,6 +37,14 @@ const router = createBrowserRouter([
         element: <Categorias />
       }
     ]
+  },
+  {
+    path: "/Productos",
+    element: <Productos />,
+  },
+  {
+    path: "/Carrito",
+    element: <Carrito />
   }
 ])
 

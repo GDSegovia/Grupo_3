@@ -9,7 +9,7 @@ function Navegador() {
             <ul>
                 <li><Link to="/Productos">Productos</Link></li>
                 <li><Link to="/Categorias">Categorias</Link></li>
-                <li><Link to="/carrito">Carrito</Link></li>
+                <li><Link to="/Carrito">Carrito</Link></li>
             </ul>
         </nav>
     );
