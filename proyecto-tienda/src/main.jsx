@@ -8,17 +8,16 @@ import Banner from './componentes/Banner.jsx';
 import Categorias from './componentes/Categorias.jsx';
 
 const router = createBrowserRouter([
-
   {
     path: "/",
     element: <App />
   },
   {
-    path: "/ProductoIn",
+    path: "/Categorias/ProductoIn",
     element: <ProductoIn />,
     children: [
         {
-          path: "/ProductoIn/:productId",
+          path: "/Categorias/ProductoIn/:productId",
           element: <ProductoIn />
         }
       ]
