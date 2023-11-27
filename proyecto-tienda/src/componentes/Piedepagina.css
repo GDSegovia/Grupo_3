@@ -3,14 +3,20 @@
   padding: 8px;
   text-align: center;
   width: 100%;
+<<<<<<< HEAD
   bottom: 0;
+=======
+  box-sizing: border-box; /* para incluir el padding en el ancho total */
+  /* position: fixed; */
+  bottom: 0;
+  /* max-width: 1200px; Elimina esta línea */
+>>>>>>> c2a391d6af7012cfdb8e7af720c4a761bc01b859
   font-weight: 300;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 
 .Piedepagina img {
   width: auto;

@@ -10,7 +10,6 @@ function Boton(props) {
     margin: '1rem',
     marginLeft: 'auto',
     marginRight: 'auto',
-    borderColor: 'var(--Amarillo)',
     borderRadius: '5px',
     textDecoration: 'none',
   };

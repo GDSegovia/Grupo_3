@@ -9,9 +9,6 @@ import Piedepagina from './Piedepagina';
 function Banner() {
   return (
     <>
-    <header>
-      <Navegador />
-    </header>
     <section className="banner">
       <div>
         <h2 className="banner_title">Encuentra lo que quieres, al precio que quieres:</h2>
@@ -19,9 +16,6 @@ function Banner() {
           <a href="#actuales" className="banner"><img src={Baner} alt="actuales" className="actuales" /></a>
         </div>
       </div>
-      <footer>
-      <Piedepagina />
-      </footer>
     </section>
     </>
   );

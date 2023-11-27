@@ -1,7 +1,7 @@
 .banner {
     text-align: center;
     padding: 50px 20px;
-    background-color: #f2f2f2;
+    background-color: var(--Gris);
   }
   
   .banner_title {
