@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-
+import { Route } from 'react-router-dom';
+import './Carrito.css'
 import './Categorias.css';
 import Navegador from './Navegador';
 import Piedepagina from './Piedepagina';
@@ -7,6 +8,7 @@ import Actuales from './productos/Actuales';
 import Antiguos from './productos/Antiguos';
 import Deportivos from './productos/Deportivos';
 import Especiales from './productos/Especiales';
+import DatosAutos from './productoindividual/DatosAutos'
 const Carrito = () => {
   const [cart, setCart] = useState([]);
   const [total, setTotal] = useState(0);
@@ -47,7 +49,7 @@ const Carrito = () => {
       <button onClick={() => addToCart({ id: 1, name: 'Producto 1', price: 10.99 })}>
         Añadir Producto 1 al Carrito
       </button>
-      {/* Puedes agregar más botones para otros productos */}
+      <Route path="/carrito" component={Carrito} />
     </div>
   );
 };

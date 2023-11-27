@@ -5,9 +5,9 @@ import Piedepagina from '../Piedepagina';
 import DatosAutos from './DatosAutos';
 import Boton from '../boton/Boton';
 import './ProductoIn.css';
+import Carrito from '../Carrito';
 
-
-function ProductoIn() {
+function ProductoIn({ addToCart, cart }) {
   const { productId } = useParams(); // Obtén la ID del producto de la ruta
 
   // Busca el producto por ID en el array DatosAutos
@@ -20,7 +20,7 @@ function ProductoIn() {
 
   // Aca deberia hacer que se mande al carrito con el boton
   const hadleClickEnBoton = () => {
-    alert("Se ha agregado al carrito");
+    addToCart(producto);
   }
 
   // Muestra los detalles del producto
@@ -40,7 +40,8 @@ function ProductoIn() {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tenetur officia fugiat sapiente suscipit sit, maxime laborum unde neque esse qui maiores nesciunt tempore ipsam illum iusto, natus, quaerat rerum.</p>
             </div>
             <p className="precio"><strong>Precio: <span className="precio-destacado">{producto.Precio}</span></strong></p> <br />
-            <Boton className="boton" color="#012a52" texto="Añadir al Carrito" onClick={hadleClickEnBoton} />
+            <Boton className="boton" color="#012a52" texto="Añadir al Carrito" onClick={handleClickEnBoton} />
+      <Link to="/carrito">Ir al Carrito</Link>
           </div>
         </div>
       </main>

@@ -8,6 +8,9 @@ import Piedepagina from './componentes/Piedepagina.jsx'
 // import FormularioDeAutos from './componentes/productos/FormularioDeAutos.jsx';
 import './App.css'
 import Banner from './componentes/Banner.jsx';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ProductoIn from './componentes/productoindividual/ProductoIn.jsx';
+import Carrito from './componentes/Carrito.jsx';
 
 
 function App() {
@@ -30,6 +33,7 @@ function App() {
         <Navegador></Navegador>
       </header>
       <main>
+        <Carrito></Carrito>
         <Hero />
         <Banner />
       </main>
