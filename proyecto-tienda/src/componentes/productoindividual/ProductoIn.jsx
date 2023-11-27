@@ -21,7 +21,7 @@ function ProductoIn() {
   // Aca deberia hacer que se mande al carrito con el boton
   const handleClickEnBoton = () => {
     AddToCart(producto);
-    history.push('/Carrito'); // Redirige a la página del carrito
+    history.push('/Carrito'); 
   }
   // Muestra los detalles del producto
   return (

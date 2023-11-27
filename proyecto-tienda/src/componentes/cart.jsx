@@ -1,9 +1,3 @@
-const cart = [
-    {
-        Tipo, 
-        Id,
-        Nombre, 
-        Precio,
-        Image, 
-    }
-]
+const cart = []
+
+export default cart
