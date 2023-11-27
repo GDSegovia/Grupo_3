@@ -5,11 +5,10 @@ import './Navegador.css';
 function Navegador() {
     return (
         <nav className='navegador'>
-            <p className='resaltado'>MiniCars Toys</p>
+            <a className='MiniCars' href='/'>MiniCars Toys</a>
             <ul>
-                <li><Link to="/">Home</Link></li>
                 <li><Link to="/Productos">Productos</Link></li>
-                <li><Link to="/BF">BlackFriday</Link></li>
+                <li><Link to="/Categorias">Categorias</Link></li>
                 <li><Link to="/carrito">Carrito</Link></li>
             </ul>
         </nav>

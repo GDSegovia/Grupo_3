@@ -22,7 +22,7 @@ function Categorias() {
     <header>
       < Navegador />
     </header>
-    <section className="categorias">
+    <section className={`categorias${!CategoriasId ? ' full-height' : ''}`}>
         <h2 className="categorias_title">Elija una Categoria:</h2>
         <div className='categorias_list'>
           <a href="/Categorias/1" className="categorias"><h3>Actuales</h3><img src={Bmvv} alt="actuales" className="actuales" /></a>

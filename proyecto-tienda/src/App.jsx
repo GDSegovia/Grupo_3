@@ -7,6 +7,7 @@ import Hero from './componentes/Hero.jsx';
 import Piedepagina from './componentes/Piedepagina.jsx'
 // import FormularioDeAutos from './componentes/productos/FormularioDeAutos.jsx';
 import './App.css'
+import Banner from './componentes/Banner.jsx';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       </header>
       <main>
         <Hero />
+        <Banner />
       </main>
       <footer>
         <Piedepagina></Piedepagina>
