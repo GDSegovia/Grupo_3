@@ -5,7 +5,7 @@ import './Navegador.css';
 function Navegador() {
     return (
         <nav className='navegador'>
-            <p className='logo'>Autitos</p>
+            <p className='resaltado'>MiniCars Toys</p>
             <ul>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/Productos">Productos</Link></li>
