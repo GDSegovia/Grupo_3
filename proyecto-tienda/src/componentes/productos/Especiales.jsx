@@ -14,10 +14,10 @@ function Especiales() {
       <article>
         <h2 className="especiales_title">Especiales:</h2>
         <div className='especiales_list'>
-          <a href="#" className="especiales cabriolet"><img src={Cabriolet} alt="actuales" className="actuales" /></a>
-          <a href="#" className="especiales chevrolett"><img src={Chevrolett} alt="especiales Chevrolett Modify SuperCharged" className="antiguos" /></a>
-          <a href="" className="especiales_deportivos"><img src={Forb} alt="deportivos" className="deportivos" /></a>
-          <a href="" className="especiales_especiales"><img src={Skoda} alt="especiales" className="especiales" /></a>
+          <a href="ProductoIn/41" className="especiales cabriolet"><img src={Cabriolet} alt="actuales" className="actuales" /></a>
+          <a href="ProductoIn/42" className="especiales chevrolett"><img src={Chevrolett} alt="especiales Chevrolett Modify SuperCharged" className="antiguos" /></a>
+          <a href="ProductoIn/43" className="especiales_deportivos"><img src={Forb} alt="deportivos" className="deportivos" /></a>
+          <a href="ProductoIn/44" className="especiales_especiales"><img src={Skoda} alt="especiales" className="especiales" /></a>
         </div>
 
       </article>

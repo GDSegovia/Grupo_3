@@ -14,10 +14,10 @@ function Deportivos() {
       <article>
         <h2 className="deportivos_title">Deportivos:</h2>
         <div className='deportivos_list'>
-          <a href="#" className="deportivos huayra_GT"><img src={Huayra_GT} alt="Huayra_GT" className="deportivos huayra_GT" /></a>
-          <a href="#" className="deportivos thunder"><img src={Thunder} alt="Thunder" className="deportivos huayra_GT" /></a>
-          <a href="" className="deportivos vector"><img src={Vector} alt="Vector" className="deportivos vector" /></a>
-          <a href="" className="deportivos ventury"><img src={Ventury} alt="Ventury" className="deportivos" /></a>
+          <a href="ProductoIn/31" className="deportivos huayra_GT"><img src={Huayra_GT} alt="Huayra_GT" className="deportivos huayra_GT" /></a>
+          <a href="ProductoIn/32" className="deportivos thunder"><img src={Thunder} alt="Thunder" className="deportivos huayra_GT" /></a>
+          <a href="ProductoIn/33" className="deportivos vector"><img src={Vector} alt="Vector" className="deportivos vector" /></a>
+          <a href="ProductoIn/34" className="deportivos ventury"><img src={Ventury} alt="Ventury" className="deportivos" /></a>
         </div>
 
       </article>

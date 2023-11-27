@@ -11,8 +11,7 @@ import Boton from '.././componentes/boton/Boton';
 
 function Hero() {
   const hadleClickEnBoton = () => {
-    alert('Hiciste click');
-    
+    window.location.href = "/Categorias";
   }
 
   return (

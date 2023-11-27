@@ -1,0 +1,38 @@
+.banner {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .banner_title {
+    font-size: 2rem;
+    margin-bottom: 0px;
+    color: #333;
+  }
+  
+  .banner_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner_list a {
+    margin: 0 10px;
+  }
+  
+  section.banner {
+    min-height: calc(100vh - 80px); 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  footer {
+    margin-top: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .banner_title {
+        font-size: 1rem;
+      }
+  }
