@@ -57,39 +57,39 @@ Los créditos del proyecto, por orden alfabético son los siguientes:
 
 ---
 
-Desarrollador: [Beltrán Rubín de Celis David Amhed]
+**Desarrollador**: [Beltrán Rubín de Celis David Amhed]
 
-Mail: [davikin01@gmail.com] [davikin_01@hotmail.com]
+**Mail**: [davikin01@gmail.com] [davikin_01@hotmail.com]
 
-Usuario: Amhedriel
+**Usuario**: Amhedriel
 
-Repositorio Personal: [https://github.com/Amhedriel]
+**Repositorio Personal**: [https://github.com/Amhedriel]
 
-Repositorio Grupal: [https://github.com/GDSegovia/Grupo_3.git]
-
----
-
-Desarrollador: [Segovia Gleiver David]
-
-Mail: [segovia001@gmail.com]
-
-Usuario: GDSegovia
-
-Repositorio Personal: [https://github.com/GDSegovia]
-
-Repositorio Grupal: [https://github.com/GDSegovia/Grupo_3.git]
+**Repositorio Grupal**: [https://github.com/GDSegovia/Grupo_3.git]
 
 ---
 
-Desarrollador: [Romero Valentin]
+**Desarrollador**: [Segovia Gleiver David]+git 
 
-Mail: [valeen.n.vr@gmail.com]
+**Mail**: [segovia001@gmail.com]
 
-Usuario:valentinrxk
+**Usuario**: GDSegovia
 
-Repositorio Personal: [https://github.com/valentinrxk]
+**Repositorio Personal**: [https://github.com/GDSegovia]
 
-Repositorio Grupal: [https://github.com/GDSegovia/Grupo_3.git]
+**Repositorio Grupal**: [https://github.com/GDSegovia/Grupo_3.git]
+
+---
+
+**Desarrollador**: [Romero Valentin]
+
+**Mail**: [valeen.n.vr@gmail.com]
+
+**Usuario**:valentinrxk
+
+**Repositorio Personal**: [https://github.com/valentinrxk]
+
+**Repositorio Grupal**: [https://github.com/GDSegovia/Grupo_3.git]
 
 ---
 

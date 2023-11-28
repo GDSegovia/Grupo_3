@@ -4,7 +4,7 @@ import './Categorias.css';
 import Navegador from './Navegador';
 import Piedepagina from './Piedepagina';
 import cart from './cart';  // Importa cart
-import total from 
+// import total from 
 
 function Carrito() {
 
@@ -13,7 +13,7 @@ function Carrito() {
     <header>
       < Navegador />
     </header>
-    <div className='Carrito'>
+      <div className='Carrito1'>
       <h2>Carrito de Compras</h2>
       <ul>
         {cart.map(product => (
@@ -29,6 +29,6 @@ function Carrito() {
     </footer>
     </>
   );
-};
+}
 
 export default Carrito;
