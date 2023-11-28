@@ -55,6 +55,7 @@ El proyecto de "**MiniCars Toys**" está licenciado bajo la licencia *MIT*, que 
 
 Los créditos del proyecto, por orden alfabético son los siguientes:
 
+---
 
 Desarrollador: [Beltrán Rubín de Celis David Amhed]
 
@@ -66,6 +67,7 @@ Repositorio Personal: [https://github.com/Amhedriel]
 
 Repositorio Grupal: [https://github.com/GDSegovia/Grupo_3.git]
 
+---
 
 Desarrollador: [Segovia Gleiver David]
 
@@ -77,24 +79,44 @@ Repositorio Personal: [https://github.com/GDSegovia]
 
 Repositorio Grupal: [https://github.com/GDSegovia/Grupo_3.git]
 
+---
 
 Desarrollador: []
+
 Mail: [mail.com]
+
 Usuario: 
+
 Repositorio Personal: []
+
 Repositorio Grupal: [https://github.com/GDSegovia/Grupo_3.git]
 
-Desarrollador: []
-Mail: [mail.com]
-Usuario: 
-Repositorio Personal: []
-Repositorio Grupal: [https://github.com/GDSegovia/Grupo_3.git]
+---
 
 Desarrollador: []
+
 Mail: [mail.com]
+
 Usuario: 
+
 Repositorio Personal: []
+
 Repositorio Grupal: [https://github.com/GDSegovia/Grupo_3.git]
+
+---
+
+Desarrollador: []
+
+Mail: [mail.com]
+
+Usuario: 
+
+Repositorio Personal: []
+
+Repositorio Grupal: [https://github.com/GDSegovia/Grupo_3.git]
+
+
+
 
 
 
