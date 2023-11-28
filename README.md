@@ -81,13 +81,13 @@ Repositorio Grupal: [https://github.com/GDSegovia/Grupo_3.git]
 
 ---
 
-Desarrollador: []
+Desarrollador: [Romero Valentin]
 
-Mail: [mail.com]
+Mail: [valeen.n.vr@gmail.com]
 
-Usuario: 
+Usuario:valentinrxk
 
-Repositorio Personal: []
+Repositorio Personal: [https://github.com/valentinrxk]
 
 Repositorio Grupal: [https://github.com/GDSegovia/Grupo_3.git]
 
