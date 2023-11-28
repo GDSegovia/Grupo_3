@@ -23,3 +23,4 @@ function addToCart(product)  {
   };
 
   export default addToCart
+
