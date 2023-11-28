@@ -1,8 +1,17 @@
+<<<<<<< HEAD
 /*import React, { useState, useEffect } from 'react';
+=======
+import React, { useState, useEffect } from 'react';
+>>>>>>> b695545019d8e1edd14d72476cdf1910aa45d1f4
 import './Carrito.css';
 import './Categorias.css';
 import Navegador from './Navegador';
 import Piedepagina from './Piedepagina';
+<<<<<<< HEAD
+=======
+import cart from './cart';  // Importa cart
+import total from 
+>>>>>>> b695545019d8e1edd14d72476cdf1910aa45d1f4
 
 function Carrito() {
   const [cart, setCart] = useState([]);
