@@ -12,6 +12,7 @@
   
   .banner_list {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
@@ -21,18 +22,25 @@
   }
   
   section.banner {
-    min-height: calc(100vh - 80px); 
+    min-height: calc(100vh - 800px); 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
   
-  /* footer {
-    margin-top: auto;
-  } */
-  
-  @media (max-width: 768px) {
+  @media (max-width: 720px) {
     .banner_title {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
       }
+    .banner, 
+    .actuales{
+      padding: 0%;
+      margin: 0;
+    }
+    .banner_list {
+      margin: 0%;
+      padding: 0%;
+      width: auto;
+      height: auto;
+    }
   }

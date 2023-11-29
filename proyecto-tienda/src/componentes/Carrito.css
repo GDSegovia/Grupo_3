@@ -1,4 +1,4 @@
-.Carrito {
+.Carrito1 {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
@@ -11,13 +11,13 @@
   }
   
   /* Estilo para la lista de productos en el carrito */
-  .Carrito ul {
+  .Carrito1 ul {
     list-style: none;
     padding: 0;
   }
   
   /* Estilo para cada elemento de la lista de productos */
-  .Carrito li {
+  .Carrito1 li {
     margin-bottom: 10px;
   }
   

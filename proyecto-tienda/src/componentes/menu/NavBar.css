@@ -1,0 +1,116 @@
+.NavContainer {
+  width: 100%;
+  padding: .4rem;
+  background-color: var(--azul-oscuro);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--blanco);
+  z-index: 100;
+}
+
+.NavContainer a {
+  margin: 0 0 0 2rem;
+  font-weight: 400;
+  color: var(--blanco);
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.NavContainer a:hover{
+  color: var(--azul-claro);
+}
+
+
+.NavContainer nav a {
+  color: var(--blanco);
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.NavContainer .links {
+  position: absolute;
+  top: -1000px;
+  left: -1000px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  z-index: 10;
+  transition: all .6s ease;
+}
+
+.NavContainer nav .link1:hover{
+  color: var(--azul-claro);
+}
+
+.NavContainer nav.links{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+
+.NavContainer .links a {
+  color: var(--blanco);
+  display: block;
+  font-size: 1.2rem;
+  margin: 0 1.5rem;
+}
+
+@media(min-width: 720px) {
+  .NavContainer .links {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: initial;
+    margin: 0;
+    display: block;
+  }
+
+  /* .NavContainer .links a {
+    color: white;
+    display: inline;
+  } */
+}
+
+.NavContainer .links.active {
+  width: 100%;
+  display: block;
+  position: absolute;
+  margin-left: auto;
+  top: 50px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.NavContainer .links.active {
+  font-size: 2rem;
+  margin-top: 1rem;
+  padding: 1.5rem 0;
+  line-height: 3rem;
+}
+
+.NavContainer .burger {
+  @media(min-width: 720px) {
+    display: none;
+  }
+}
+
+/* .BgDiv-active {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+} */
+
+.carrito{
+  background-color: var(--blanco);
+  margin: 0 .1rem 0;
+  width: 45px;
+  height: 45px;
+  line-height: 35px;
+  border: 1px solid var(--blanco);
+  padding: 5px;
+}
+

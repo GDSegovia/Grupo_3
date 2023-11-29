@@ -1,0 +1,87 @@
+.formularioReseña {
+  border-radius: 1rem;
+  border: 4px solid var(--azul-oscuro);
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-image: url("../../assets/estrellas/fondo.jpg");
+  background-size: cover;
+}
+
+/* ESTRELLAS*/
+.rating-image img {
+  max-width: 15rem;
+}
+.mas img {
+  max-width: 1.5rem;
+}
+.mas img:hover {
+  max-width: 1.6rem;
+}
+.menos img {
+  max-width: 2rem;
+}
+.menos img:hover {
+  max-width: 2.1rem;
+}
+
+
+.reseñaInput p {
+  font-size: 0.7rem;
+  opacity: 0.5;
+}
+
+.rating-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.rating-buttons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.reseñaInput textarea {
+  width: 100%;
+  height: 100px;  
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  resize: none; 
+  font-family: sans-serif; 
+}
+
+
+.nombreInput input {
+  width: 60%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.subirReseña {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.subirReseña:hover {
+  background-color: #45a049;
+  color: rgba(255, 255, 255, 0.877);
+}

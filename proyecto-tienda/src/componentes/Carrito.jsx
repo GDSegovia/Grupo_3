@@ -10,8 +10,12 @@ import Piedepagina from './Piedepagina';
 <<<<<<< HEAD
 =======
 import cart from './cart';  // Importa cart
+<<<<<<< HEAD
 import total from 
 >>>>>>> b695545019d8e1edd14d72476cdf1910aa45d1f4
+=======
+// import total from 
+>>>>>>> 3d422ee6bd6a7c4f598d363d358ba936e6cdc824
 
 function Carrito() {
   const [cart, setCart] = useState([]);
@@ -33,6 +37,7 @@ function Carrito() {
 
   return (
     <>
+<<<<<<< HEAD
       <header>
         <Navegador />
       </header>
@@ -51,6 +56,25 @@ function Carrito() {
       <footer>
         <Piedepagina />
       </footer>
+=======
+    <header>
+      < Navegador />
+    </header>
+      <div className='Carrito1'>
+      <h2>Carrito de Compras</h2>
+      <ul>
+        {cart.map(product => (
+          <li key={product.id}>
+            {product.name} - Cantidad: {product.quantity}
+          </li>
+        ))}
+      </ul>
+      <p>Total: ${total.toFixed(2)}</p>
+    </div>
+    <footer>
+      <Piedepagina />
+    </footer>
+>>>>>>> 3d422ee6bd6a7c4f598d363d358ba936e6cdc824
     </>
   );
 }

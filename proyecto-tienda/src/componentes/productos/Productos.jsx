@@ -1,16 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import DatosAutos from "../productoindividual/DatosAutos";
-import Navegador from "../Navegador";
 import Piedepagina from "../Piedepagina";
 import "./Productos.css";
+import NavBar from '../menu/NavBar';
 
 function Productos() {
     return (
         <>
-            <header>
-                <Navegador />
-            </header>
+          <header>
+            <NavBar />
+          </header>
             <main>
                 <div className="contenedor-autos">
                     {DatosAutos.map((auto) => (
@@ -22,10 +22,10 @@ function Productos() {
                         </Link>
                     ))}
                 </div>
-            </main>
-            <footer>
-                <Piedepagina />
-            </footer>
+          </main>
+          <footer>
+            <Piedepagina />
+          </footer>
         </>
     );
 }

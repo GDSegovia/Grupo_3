@@ -54,13 +54,13 @@ function ProductoIn() {
 export default ProductoIn;*/
 
 import { useParams } from 'react-router-dom';
-import Navegador from '../Navegador';
 import Piedepagina from '../Piedepagina';
 import DatosAutos from './DatosAutos';
 import Boton from '../boton/Boton';
 import './ProductoIn.css';
 import React, { useState, useEffect } from 'react';
 import addToCart from '../AddToCart';
+import NavBar from '../menu/NavBar';
 
 
 function ProductoIn() {
@@ -83,7 +83,7 @@ function ProductoIn() {
   return (
     <section>
       <header>
-        <Navegador />
+        <NavBar />
       </header>
       <main className="main-container">
         <div className="producto-container">
@@ -92,8 +92,8 @@ function ProductoIn() {
             <h2>Categoria: {producto.Tipo}</h2>
             <h1 className="nombre-producto">{producto.Nombre}</h1><br />
             <div className='descripcionProducto'>
-            <h3>Descripcion del producto</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tenetur officia fugiat sapiente suscipit sit, maxime laborum unde neque esse qui maiores nesciunt tempore ipsam illum iusto, natus, quaerat rerum.</p>
+              <h3>Descripcion del producto</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tenetur officia fugiat sapiente suscipit sit, maxime laborum unde neque esse qui maiores nesciunt tempore ipsam illum iusto, natus, quaerat rerum.</p>
             </div>
             <p className="precio"><strong>Precio: <span className="precio-destacado">{producto.Precio}</span></strong></p> <br />
             <Boton className="boton" color="#012a52" texto="Añadir al Carrito" onClick={handleClickEnBoton} />

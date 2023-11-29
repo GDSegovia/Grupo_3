@@ -67,3 +67,4 @@ function Hero() {
 
 // Exportamos el componente App para poder usarlo en otros archivos
 export default Hero;
+

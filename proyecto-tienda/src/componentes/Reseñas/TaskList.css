@@ -1,0 +1,12 @@
+.task-list-container {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea si no hay suficiente espacio horizontal */
+  }
+  
+  /* Si deseas agregar espacio entre los elementos, puedes usar la propiedad margin-right */
+  .task-list-container > * {
+    margin-right: 2rem;
+  }
+  
