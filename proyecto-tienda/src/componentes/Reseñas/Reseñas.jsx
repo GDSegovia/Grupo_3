@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Navegador from "../Navegador";
+// import Navegador from "../Navegador";
+import NavBar from "../menu/NavBar";
 import Piedepagina from "../Piedepagina";
 import TaskList from "./TaskList";
 import TaskForm from "./TaskForm";
@@ -50,7 +51,8 @@ function Reseñas() {
   return (
     <>
       <header>
-        <Navegador />
+        <NavBar />
+        {/* <Navegador /> */}
       </header>
       <main className="reseñas">
         <TaskList
