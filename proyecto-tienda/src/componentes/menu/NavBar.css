@@ -17,6 +17,10 @@
   font-size: 1.3rem;
 }
 
+.NavContainer a:hover{
+  color: var(--azul-claro);
+}
+
 
 .NavContainer nav a {
   color: var(--blanco);
@@ -33,6 +37,10 @@
   display: flex;
   z-index: 10;
   transition: all .6s ease;
+}
+
+.NavContainer nav .link1:hover{
+  color: var(--azul-claro);
 }
 
 .NavContainer nav.links{
@@ -103,7 +111,6 @@
   height: 45px;
   line-height: 35px;
   border: 1px solid var(--blanco);
-  /* border-radius: 50%; */
   padding: 5px;
 }
 
