@@ -5,15 +5,17 @@ import './Piedepagina.css';
 function Piedepagina() {
   return (
     <footer className="Piedepagina">
-
-      <img src={Logo} alt="logo" />
-
-      <a href="#">Terminos y Condiciones</a>
-      <a href="#">Ayuda</a>
-
-      <p>Copyright © 1999-2023 Grupo 3.</p>
-      <p>Paraná 467 3er piso Dto. 12, C1017 CABA</p>
-
+      <div className="logosvg">
+        <img src={Logo} alt="logo" />
+      </div>
+      <div className="terminos">
+        <a href="#">Terminos y Condiciones</a>
+        <a href="#">Ayuda</a>
+      </div>
+      <div className="derechos">
+        <span>Copyright © 1999-2023 Grupo 3.</span>
+        <span>Paraná 467 3er piso Dto. 12, C1017 CABA</span>
+      </div>
     </footer>
   );
 }

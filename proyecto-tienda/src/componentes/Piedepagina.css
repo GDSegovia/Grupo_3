@@ -1,13 +1,12 @@
 .Piedepagina {
   background-color: var(--azul-oscuro);
   padding: 8px;
-  text-align: center;
-  width: 10;
+  width: 100%;
   bottom: 0;
   font-weight: 300;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-content: flex-start;
   align-items: center;
 }
 
@@ -21,17 +20,48 @@
   text-decoration: none;
   color: var(--blanco);
   font-size: 1rem;
+  margin: 5px 0;
 }
 
 .Piedepagina a:hover {
-  text-decoration: underline;
+  color: var(--azul-claro);
 }
 
-.Piedepagina p {
+.Piedepagina span {
   font-weight: 300;
   margin: 5px 0; 
   color: var(--blanco);
   text-align: right; 
   font-size: 1rem; 
   line-height: 1.2; 
+}
+
+.Piedepagina .terminos,
+.Piedepagina .derechos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0 .5rem;
+}
+
+.terminos a,
+.derechos span{
+  display: block;
+  padding: 0 1rem;
+}
+
+@media (max-width: 720px) {
+
+  .terminos a,
+  .derechos span{
+    font-size: .8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .logosvg{
+    display: none;
+  }
 }

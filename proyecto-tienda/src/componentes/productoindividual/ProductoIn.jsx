@@ -37,8 +37,8 @@ function ProductoIn() {
             <h2>Categoria: {producto.Tipo}</h2>
             <h1 className="nombre-producto">{producto.Nombre}</h1><br />
             <div className='descripcionProducto'>
-            <h3>Descripcion del producto</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tenetur officia fugiat sapiente suscipit sit, maxime laborum unde neque esse qui maiores nesciunt tempore ipsam illum iusto, natus, quaerat rerum.</p>
+              <h3>Descripcion del producto</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tenetur officia fugiat sapiente suscipit sit, maxime laborum unde neque esse qui maiores nesciunt tempore ipsam illum iusto, natus, quaerat rerum.</p>
             </div>
             <p className="precio"><strong>Precio: <span className="precio-destacado">{producto.Precio}</span></strong></p> <br />
             <Boton className="boton" color="#012a52" texto="Añadir al Carrito" onClick={handleClickEnBoton} />

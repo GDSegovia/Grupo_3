@@ -38,9 +38,9 @@ function NavBar() {
         <BurgerButton clicked={clicked} handleClick={handleClick} />
       </div>
       <nav className={`links ${clicked ? 'active' : ''}`}>
-        <Link to="/Reseñas" className='link1'>Reseñas</Link>
-        <Link to="/Productos" className='link1'>Productos</Link>
         <Link to="/Categorias" className='link1'>Categorías</Link>
+        <Link to="/Productos" className='link1'>Productos</Link>
+        <Link to="/Reseñas" className='link1'>Reseñas</Link>
         <Link to="/Carrito" className='link1'><img className='carrito' src={Carro} alt="Carrito" /></Link>
       </nav>
     </div>

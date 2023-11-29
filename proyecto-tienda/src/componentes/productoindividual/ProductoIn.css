@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   min-height: 100vh;
 }
 
@@ -15,7 +16,8 @@
   display: flex;
 }
 
- .precio {
+ /* --?-- */
+.precio {
   color: #012a52 !important;
   font-size: 20px !important;
   margin: 5px 0 !important;
@@ -69,3 +71,17 @@
   border: #012a52;
   margin-bottom: 1rem;
 }
+
+/* @media (max-width: 720px) {
+  .producto-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+  .precio{
+    margin: 500px;
+  }
+} */
