@@ -1,11 +1,11 @@
 import { useParams } from 'react-router-dom';
-import Navegador from '../Navegador';
 import Piedepagina from '../Piedepagina';
 import DatosAutos from './DatosAutos';
 import Boton from '../boton/Boton';
 import './ProductoIn.css';
 import React, { useState, useEffect } from 'react';
 import addToCart from '../AddToCart';
+import NavBar from '../menu/NavBar';
 
 
 function ProductoIn() {
@@ -28,7 +28,7 @@ function ProductoIn() {
   return (
     <section>
       <header>
-        <Navegador />
+        <NavBar />
       </header>
       <main className="main-container">
         <div className="producto-container">
