@@ -1,0 +1,133 @@
+  .task-item {
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid var(--azul-oscuro);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-image: url("../../assets/estrellas/fondo.jpg");
+    width: 20rem;
+    height: 15rem;
+    position: relative;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease, opacity 0.5s ease, transform 0.5s ease;
+  }
+
+  .task-item p {
+    font-size: 1.2rem;
+  }
+
+  .task-item h3 {
+    position: absolute;
+    text-align: left;
+    bottom: 2rem;
+  }
+
+  .botonEliminar {
+    position: absolute;
+    top: 5px;
+    left: 0;
+  }
+
+  .botonEliminar :hover {
+    position: absolute;
+    top: 0px;
+    left: 2.6px;
+    width: 1.6rem;
+  }
+
+  .botonUtil {
+    position: absolute;
+    bottom: 3px;
+    right: -7px;
+  }
+
+  .botonUtil :hover {
+    position: absolute;
+    bottom: 3px;
+    right: 2px;
+    width: 2.1rem;
+  }
+
+  .estrellasTI {
+    width: 12rem;
+    height: auto;
+    margin-bottom: 10px;
+    transition: transform 0.5s ease;
+  }
+
+  .util-btn {
+    width: 2rem;
+  }
+
+  .delete-btn {
+    width: 1.5rem;
+  }
+
+  .task-item button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  .task-item button:last-child {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .task-item.util {
+    border: 3px solid rgb(0, 255, 255); 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8); 
+    animation: enlargeAndShrink 0.2s ease; 
+  }
+
+  .task-item.remove {
+    transition: border-color 0s ease, box-shadow 0s ease, opacity 0.5s ease, transform 0.5s ease;
+    border: 4px solid rgba(255, 0, 0, 0.63); 
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8); 
+    opacity: 0; 
+    transform: scale(0.2); 
+  }
+  
+  .task-item.remove .delete-btn {
+    transform: translate() scale();
+    animation: enlargeAndCenter 1s ease; /* Duración y curva de la animación */
+  }
+  
+  @keyframes enlargeAndCenter {
+    0% {
+      transform: translate(550%, 420%) scale(10);
+    }
+    100% {
+      transform: translate(550%, 420%) scale(1);
+    }
+  }
+  
+  .task-item.util .util-btn {
+    animation: shake 0.7s ease; 
+  }
+  
+  @keyframes shake {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    25%, 75% {
+      transform: translateY(-5px);
+    }
+    50% {
+      transform: translateY(5px);
+    }
+  }
+  
+  @keyframes enlargeAndShrink {
+    0% {
+      transform: scale(1); /* Tamaño normal al inicio de la animación */
+    }
+    50% {
+      transform: scale(1.01); /* Aumenta el tamaño al 120% a la mitad de la animación (0.5 segundos) */
+    }
+    100% {
+      transform: scale(1); /* Vuelve al tamaño normal al final de la animación (1 segundo) */
+    }
+  }

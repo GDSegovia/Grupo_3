@@ -10,6 +10,7 @@ function Navegador() {
         <nav className='navegador'>
             <a className='MiniCars' href='/'>MiniCars Toys</a>
             <ul>
+                <li><Link to="/Reseñas">Reseñas</Link></li>
                 <li><Link to="/Productos">Productos</Link></li>
                 <li><Link to="/Categorias">Categorias</Link></li>
                 <li><Link to="/Carrito"><img className='carrito' src={Carro} alt="Carrito" /></Link></li>

@@ -93,15 +93,15 @@ Los créditos del proyecto, por orden alfabético son los siguientes:
 
 ---
 
-Desarrollador: [Pablo Emiliano Basile Ramonda]
+**Desarrollador**: [Basile Ramonda Pablo Emiliano]
 
-Mail: [pablo.basile32@gmail.com]
+**Mail**: [pablo.basile32@gmail.com]
 
-Usuario: PabloColo8
+**Usuario**: PabloColo8
 
-Repositorio Personal: [https://github.com/PabloColo8]
+**Repositorio Personal**: [https://github.com/PabloColo8]
 
-Repositorio Grupal: [https://github.com/GDSegovia/Grupo_3.git]
+**Repositorio Grupal**: [https://github.com/GDSegovia/Grupo_3.git]
 
 ---
 
