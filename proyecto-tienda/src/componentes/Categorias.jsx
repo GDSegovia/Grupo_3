@@ -1,4 +1,7 @@
 // Categorias.jsx
+import { Router, Routes, Route } from 'react-router-dom';
+import styled from 'styled-components';
+
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import Bmvv from '../assets/img/actuales/actuales_BMVV_M2_Urbän.jpeg';
@@ -7,22 +10,24 @@ import Paganni from '../assets/img/deportivos/deportivo_Paganni_Huayra.jpeg';
 import Cabriolet from '../assets/img/especiales/especiales_Cabriolett_Silver-Gold.jpeg';
 
 import './Categorias.css';
-import Navegador from './Navegador';
+// import Navegador from './Navegador';
 import Piedepagina from './Piedepagina';
 import Actuales from './productos/Actuales';
 import Antiguos from './productos/Antiguos';
 import Deportivos from './productos/Deportivos';
 import Especiales from './productos/Especiales';
+import NavBar from './menu/NavBar';
 
 function Categorias() {
   const { CategoriasId } = useParams(); 
 
   return (
     <>
-    <header>
-      < Navegador />
-    </header>
-    <section className={`categorias${!CategoriasId ? ' full-height' : ''}`}>
+      <header>
+        <NavBar/>
+      {/* < Navegador /> */}
+      </header>
+      <section className={`categorias${!CategoriasId ? ' full-height' : ''}`}>
         <h2 className="categorias_title">Elija una Categoria:</h2>
         <div className='categorias_list'>
           <a href="/Categorias/1" className="categorias"><h3>Actuales</h3><img src={Bmvv} alt="actuales" className="actuales" /></a>
