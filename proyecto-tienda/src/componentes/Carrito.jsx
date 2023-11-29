@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './Carrito.css';
 import './Categorias.css';
-import Navegador from './Navegador';
 import Piedepagina from './Piedepagina';
+import NavBar from './menu/NavBar';
 
 function Carrito() {
   const [cart, setCart] = useState([]);
@@ -38,7 +38,7 @@ function Carrito() {
   return (
     <>
       <header>
-        <Navegador />
+        <NavBar />
       </header>
       <div className='Carrito'>
         <h2>Carrito de Compras</h2>
